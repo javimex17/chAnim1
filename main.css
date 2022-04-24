@@ -18,6 +18,20 @@ body {
     font-style: normal;
 }
 
+.font_white_menu {
+    color: white;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition: all 0.5s;
+}
+
+.font_white_menu:hover {
+    color: #00bfff;
+}
+
+
 .font-white-center {
 
     color: white;
@@ -74,6 +88,10 @@ body {
     list-style-type: none;
     display: inline-block;
 }
+
+
+
+
 
 .wrapper {
     display: grid;
@@ -226,6 +244,11 @@ body {
 .background .logo-tech .image_tech {
     width: 50px;
 }
+
+.image_tech:hover {
+    color: #00bfff;
+}
+
 
 
 .button {
