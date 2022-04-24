@@ -9,7 +9,14 @@ body {
     font-family: muli, sans-serif;
     font-weight: 700;
     font-style: normal;
+
+    transition: all 0.5s;
 }
+
+.font-white-bold:hover {
+    color: blue;
+}
+
 
 .font-white {
     color: white;
@@ -245,12 +252,6 @@ body {
     width: 50px;
 }
 
-.image_tech:hover {
-    color: #00bfff;
-}
-
-
-
 .button {
     width: 80px;
     height: 30px;
@@ -261,6 +262,13 @@ body {
     border-left-width: 1px;
     border-style: double;
     border-color: white;
+
+    transition: all 0.5s;
+}
+
+.button:hover {
+
+    background-color: white;
 }
 
 .image__brands_config {
@@ -272,6 +280,19 @@ body {
     padding-left: 10px;
     display: flex;
     flex-direction: column;
+    transition: all 1s;
+}
+
+.box__opinion_flex:hover {
+    box-shadow: 6px 6px #ccc;
+}
+
+.content_box_text:hover {
+    box-shadow: 6px 6px #ccc;
+}
+
+.box__news_flex:hover {
+    box-shadow: 6px 6px #ccc;
 }
 
 .section__text_flex {
